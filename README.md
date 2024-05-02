@@ -6,6 +6,8 @@ Node 20
 
 ## Running
 
+Just copy .env-example to .env
+
 ```bash
 npm install
 ```
