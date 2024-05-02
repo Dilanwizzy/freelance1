@@ -1,0 +1,28 @@
+<script lang="ts">
+	import Video from "$lib/components/video/video.body.svelte";
+
+</script>
+
+<section class="min-h-screen flex flex-col overflow-x-hidden">
+	<main class="flex flex-col flex-grow">
+		<div class="h-screen overflow-y-auto scroll-pt-8 pt-8">
+			<!-- Video player -->
+			<div class="box-border flex w-full h-fit px-8 justify-center items-stretch">
+				<div class="flex iH">
+					<div class="flex iH w-2/3 h-2/3">
+						<div>
+							<Video />
+						</div>
+					</div>
+					<div></div>
+				</div>
+			</div>
+		</div>
+	</main>
+</section>
+
+<style>
+	.iH {
+		max-height: inherit;
+	}
+</style>

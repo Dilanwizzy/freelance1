@@ -1,0 +1,11 @@
+{
+	"name": "Black",
+	"short_name": "Black",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"icons": [
+	],
+	"description": "Self-hosted photo and video backup solution directly from your mobile phone.",
+	"lang": "en"
+}
