@@ -30,7 +30,7 @@
 .rm-scroll::-webkit-scrollbar {
     display: none;
   }
-  
+
   /* Hide scrollbar for IE, Edge and Firefox */
 .rm-scroll {
     -ms-overflow-style: none;  /* IE and Edge */
@@ -88,8 +88,8 @@
 
 .videoCard{
   position: relative;
-  width: 100%;
-  height: 100%;
+  /* width: 250px;
+  height: 450px; */
   scroll-snap-align: start; /*this whole css feature is for snappy scrolling as given in parent css also and child css too.*/
 }
 
@@ -160,12 +160,12 @@
 .videoFooter_actionsRight{
   display: flex;
 }
-.vidoeFooter_stat{
+.videoFooter_stat{
   display: flex;
   align-items: center;
   margin-right: 10px;
 }
-.vidoeFooter_stat > p {
+.videoFooter_stat > p {
   margin-left: 3px;
 }
 

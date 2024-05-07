@@ -9,17 +9,31 @@ import { myCustomTheme } from './custom-theme.config';
 module.exports = {
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
-		join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')
+		'./components/**/*.{html,js}',
+		join(require.resolve(
+			'@skeletonlabs/skeleton'),
+			'../**/*.{html,js,svelte,ts}'
+		)
 	],
 	darkMode: 'class',
 	theme: {
+		extend:{},
+		container: {
+			margin: {
+			DEFAULT: '1rem',
+			sm: '2rem',
+			lg: '4rem',
+			xl: '5rem',
+			'2xl': '6rem',
+			},
+		},
 	},
 	plugins: [
 		skeleton({
-			themes: { 
+			themes: {
 				custom: [myCustomTheme],
 				// preset: ['skeleton']
-			}
-		})
-	]
-};
+			},
+		}),
+	],
+}
