@@ -35,5 +35,6 @@ module.exports = {
 				// preset: ['skeleton']
 			},
 		}),
+		require('tailwind-scrollbar-hide'),
 	],
 }
