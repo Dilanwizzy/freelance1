@@ -183,3 +183,11 @@
 .videoHeader > *{    /*This is a way to give separate padding to all the items of a container*/
   padding: 20px;
 }
+
+html, body, body > div {
+  height: 100%;
+} 
+
+#video-content {
+  height: calc(100% - 0px);
+}
