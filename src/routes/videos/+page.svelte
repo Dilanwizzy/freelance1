@@ -107,8 +107,8 @@
 				</li>
 			</ul>
 		</div>
-		<div class="w-full mb-10 sm:w-screen flex justify-center">
-			<div class="overflow-y-auto overflow-x-hidden w-full sm:w-fit h-[600px]">
+		<div class="w-full mb-10 sm:w-screen">
+			<div class="scrollbar-hide overflow-y-auto overflow-x-hidden w-full sm:w-fit h-[600px]">
 				<Video />
 				<Video />
 				<Video />
