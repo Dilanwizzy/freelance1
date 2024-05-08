@@ -3,8 +3,9 @@
 </script>
 
 <div class="min-w-full min-h-[100%] mx-auto bg-white flex flex-col">
-	<div class="header py-3 mb-16 text-center text-white bg-zinc-600">Header</div>
-	<div class="flex flex-row justify-center sm:justify-center gap-x-9 max-w-full min-h-fit mx-auto">
+	<div
+		class="flex flex-row justify-center sm:justify-center gap-x-9 max-w-full min-h-fit mx-auto mt-[100px]"
+	>
 		<div class="hidden sm:flex flex-col mx-auto w-full">
 			<ul role="list" class="divide-y mx-auto mt-[100px] divide-white">
 				<li class="flex justify-between items-center py-2 px-4 mb-4 bg-stone-300">
@@ -107,7 +108,7 @@
 			</ul>
 		</div>
 		<div class="w-full mb-10 sm:w-screen flex justify-center">
-			<div class="overflow-y-auto w-full sm:w-fit h-[600px]">
+			<div class="overflow-y-auto overflow-x-hidden w-full sm:w-fit h-[600px]">
 				<Video />
 				<Video />
 				<Video />
