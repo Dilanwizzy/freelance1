@@ -20,13 +20,23 @@ module.exports = {
 		extend:{},
 		container: {
 			margin: {
-			DEFAULT: '1rem',
-			sm: '2rem',
-			lg: '4rem',
-			xl: '5rem',
-			'2xl': '6rem',
-			},
+				DEFAULT: '1rem',
+				sm: '2rem',
+				lg: '4rem',
+				xl: '5rem',
+				'2xl': '6rem',
+			}
 		},
+		aspectRatio: {
+            none: 0,
+            square: [1, 1],
+            "16/9": [16, 9],
+            "4/3": [4, 3],
+            "21/9": [21, 9]
+		}
+	},
+	variants: {
+        aspectRatio: ['responsive']
 	},
 	plugins: [
 		skeleton({
@@ -36,5 +46,7 @@ module.exports = {
 			},
 		}),
 		require('tailwind-scrollbar-hide'),
+		require("tailwindcss-responsive-embed"),
+        require("tailwindcss-aspect-ratio"),
 	],
 }
