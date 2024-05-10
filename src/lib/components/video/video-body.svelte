@@ -4,11 +4,13 @@
 	import VideoFooter from '$lib/components/video/video-footer.svelte';
 </script>
 
-<div class="videoCard flex flex-row justify-start my-1 px-3 max-h-100vh gap-5">
-	<div class="videoCard w-fit rounded-md overflow-hidden max-h-100vh sm:w-full">
+<div class="videoCard flex flex-row justify-start my-1 px-3 gap-5">
+	<div
+		class="videoCard w-[100%] rounded-md overflow-hidden mx-auto min-h-[300px] max-h-100vh sm:w-fit"
+	>
 		<VideoHeader />
 		<video
-			class="videoCard__player object-fill video-js vjs-default-skin vjs-fill min-h-[480px]"
+			class="videoCard__player object-fill video-js vjs-default-skin vjs-fill"
 			autoplay
 			loop
 			muted
@@ -20,7 +22,7 @@
 		<VideoFooter />
 	</div>
 	<div
-		class="absolute bottom-[5%] right-[5%] flex flex-col justify-end items-center pb-3 rounded-lg mb-[15%] gap-4 bg-gray-100/30 min-w-fit sm:static"
+		class="absolute bottom-[5%] right-[5%] flex flex-col justify-end items-center pb-3 rounded-lg mb-[15%] gap-4 bg-gray-100/30 min-h-fit min-w-fit sm:static"
 	>
 		<div class="flex flex-col justify-center items-center">
 			<svg

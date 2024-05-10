@@ -3,7 +3,9 @@
 	import { Avatar } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="videoFooter absolute bottom-1 flex justify-between items-center px-5 min-w-full">
+<div
+	class="videoFooter absolute bottom-1 flex justify-between items-center px-5 min-h-fit min-w-full"
+>
 	<div class="flex flex-col justify-start gap-2 items-center">
 		<div class="videoFooter_text flex flex-col justify-start items-start">
 			<Avatar initials="df" />
