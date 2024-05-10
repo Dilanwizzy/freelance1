@@ -14,7 +14,6 @@
 			autoplay
 			loop
 			muted
-			controls
 			preload="metadata"
 		>
 			<source src={Video1} type="video/mp4" />
