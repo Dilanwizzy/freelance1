@@ -89,7 +89,6 @@
 					</a>
 				</div>
 			</svelte:fragment>
-			<div>Search</div>
 			<svelte:fragment slot="trail">
 				<button class="btn-icon btn-icon-sm lg:!hidden" on:click={drawerOpen}>
 					<span>
