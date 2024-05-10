@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="max-h-100vh flex flex-row justify-center min-w-full bg-white gap-0 lg:gap-[10%] sm:justify-start"
+	class="max-h-100vh flex flex-row justify-center min-w-full bg-white gap-0 lg:justify-start lg:gap-[10%]"
 >
 	<div class="hidden lg:flex flex-col ml-[10%]">
 		<ul role="list" class="divide-y mx-auto mt-[150px] divide-white">
@@ -109,8 +109,8 @@
 			</li>
 		</ul>
 	</div>
-	<div class="flex justify-start sm:w-fit">
-		<div class="scrollbar-hide overflow-y-auto">
+	<div class="flex h-fit sm:w-fit">
+		<div class="scrollbar-hide overflow-y-auto min-h-fit">
 			<Video />
 			<Video />
 			<Video />
