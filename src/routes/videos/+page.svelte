@@ -5,8 +5,10 @@
 	import Video from '$lib/components/video/video-body.svelte';
 </script>
 
-<div class="h-full flex flex-row justify-center min-w-full bg-white gap-[10%] lg:justify-start">
-	<div class="hidden lg:flex flex-col ml-[13%]">
+<div
+	class="max-h-100vh flex flex-row justify-center min-w-full bg-white gap-0 lg:gap-[10%] sm:justify-start"
+>
+	<div class="hidden lg:flex flex-col ml-[10%]">
 		<ul role="list" class="divide-y mx-auto mt-[150px] divide-white">
 			<li class="flex justify-between items-center py-2 px-4 mb-4 bg-stone-300">
 				<p class="text-sm font-semibold leading-6 text-gray-800">Type</p>

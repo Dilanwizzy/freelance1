@@ -4,7 +4,7 @@
 	import VideoFooter from '$lib/components/video/video-footer.svelte';
 </script>
 
-<div class="videoCard flex flex-row justify-start my-1 px-3 gap-5">
+<div class="videoCard flex flex-row justify-strech my-1 px-o sm:justify-start sm:px-3 sm:gap-5">
 	<div
 		class="videoCard w-[100%] rounded-md overflow-hidden mx-auto min-h-[300px] max-h-100vh sm:w-fit"
 	>
